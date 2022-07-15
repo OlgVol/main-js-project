@@ -21,12 +21,14 @@ if (playerSelection === computerSelection) {
 const playerSelection = prompt("Start the game. Please write the option: ' Rock, Paper or Scissors'").toLowerCase(); 
 const computerSelection = computerPlay();
 console.log(playRound(playerSelection, computerSelection));
+alert(playRound(playerSelection, computerSelection));
 
 function game() {
     for (let i = 1; i < 5; i++) {
         let playerSelection = prompt('Choose your weapon');
         const computerSelection = computerPlay();
         console.log(playRound(playerSelection, computerSelection));
+        alert(playRound(playerSelection, computerSelection));
     }
 }
 console.log(game());
