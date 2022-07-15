@@ -25,7 +25,7 @@ alert(playRound(playerSelection, computerSelection));
 
 function game() {
     for (let i = 1; i < 5; i++) {
-        let playerSelection = prompt('Choose your weapon');
+        let playerSelection = prompt("Choose your next option from 'Rock, Paper or Scissors' ");
         const computerSelection = computerPlay();
         console.log(playRound(playerSelection, computerSelection));
         alert(playRound(playerSelection, computerSelection));
