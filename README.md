@@ -1,1 +1,1 @@
-[Project] (https://olgvol.github.io/main-js-project/)
+[Project] (https://olgvol.github.io/rock-paper-scissors/)
