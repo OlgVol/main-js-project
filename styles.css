@@ -1,0 +1,29 @@
+.option {
+  display: flex;
+  justify-content: center;
+}
+.option {
+  background-color: lightblue;
+  border: solid 2px black;
+  border-radius: 10px;
+  cursor: pointer;
+  font-size: 2rem;
+  margin: 10px;
+}
+.option:hover {
+  transform: scale(1.2);
+}
+.results {
+  margin-top: 10px;
+  display: grid;
+  justify-content: center;
+  grid-template-columns: repeat(2, 1fr);
+  justify-items: center;
+  align-items: center;
+  font-size: 1.5rem;
+}
+.result-score {
+  margin-left: 0.1rem;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
